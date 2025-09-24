@@ -1,10 +1,10 @@
-# 📱 WhatsApp Form Collector
+# WhatsApp Form Collector
 
 A beautiful, user-friendly web application that collects form submissions and sends them directly to WhatsApp, with CSV export functionality for data management.
 
 ## ✨ Features
 
-### 🎨 Beautiful User Interface
+### Beautiful User Interface
 - **Modern Design**: Clean, professional UI with gradient backgrounds and glassmorphism effects
 - **Responsive Layout**: Works perfectly on desktop, tablet, and mobile devices
 - **Smooth Animations**: Framer Motion animations for enhanced user experience
@@ -17,7 +17,7 @@ A beautiful, user-friendly web application that collects form submissions and se
 - **Auto-clear**: Form automatically clears after successful submission
 - **Success Feedback**: Toast notifications for user confirmation
 
-### 📱 WhatsApp Integration
+### WhatsApp Integration
 - **Instant Delivery**: Form data sent directly to WhatsApp in real-time
 - **Formatted Messages**: Beautifully formatted messages with emojis and structure
 - **Multiple Providers**: Support for Twilio and WhatsApp Business API
@@ -37,7 +37,7 @@ A beautiful, user-friendly web application that collects form submissions and se
 - **CORS Protection**: Secure cross-origin requests
 - **Helmet Security**: Additional security headers
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js (v14 or higher)
@@ -101,7 +101,7 @@ A beautiful, user-friendly web application that collects form submissions and se
    - **Development**: Frontend at http://localhost:3000, API at http://localhost:5000/api
    - **Production**: Everything at http://localhost:5000
 
-## 📱 WhatsApp Setup
+## WhatsApp Setup
 
 ### Option 1: Twilio WhatsApp (Recommended for testing)
 
@@ -171,7 +171,7 @@ whatsapp-form-collector/
 - **GET** `/api/export-csv?startDate=2024-01-01&endDate=2024-12-31`
   - Response: CSV file download
 
-## 🎨 Customization
+## Customization
 
 ### Styling
 - Modify CSS files in `client/src/` for custom styling
@@ -188,16 +188,7 @@ whatsapp-form-collector/
 - Add/remove fields from the message template
 - Modify emoji usage and formatting
 
-## 🚀 Deployment
-
-### Heroku
-1. Create a Heroku app
-2. Set environment variables in Heroku dashboard
-3. Deploy using Git:
-   ```bash
-   heroku create your-app-name
-   git push heroku main
-   ```
+## Deployment
 
 ### Vercel
 1. Connect your GitHub repository to Vercel
